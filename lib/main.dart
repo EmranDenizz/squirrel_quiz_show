@@ -29,16 +29,36 @@ class HomePage extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      Text(
+                        "Please select a category.",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontFamily: "Courgette",
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
                       Container(
                         alignment: Alignment.center,
                         width: 200,
                         height: 100,
-                        child: Text(
-                          "GENERAL",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 25,
-                            fontFamily: "Courgette",
+                        child: SizedBox(
+                          height: double.infinity,
+                          child: TextButton(
+                            style: TextButton.styleFrom(
+                              foregroundColor: Colors.white,
+                            ),
+                            onPressed: () {},
+                            child: Text(
+                              "GENERAL",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.black87,
+                                fontSize: 25,
+                                fontFamily: "Courgette",
+                              ),
+                            ),
                           ),
                         ),
                         decoration: BoxDecoration(
@@ -57,12 +77,22 @@ class HomePage extends StatelessWidget {
                         alignment: Alignment.center,
                         width: 200,
                         height: 100,
-                        child: Text(
-                          "SPORT",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 25,
-                            fontFamily: "Courgette",
+                        child: SizedBox(
+                          height: double.infinity,
+                          child: TextButton(
+                            style: TextButton.styleFrom(
+                              foregroundColor: Colors.white,
+                            ),
+                            onPressed: () {},
+                            child: Text(
+                              "SPORT",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.black87,
+                                fontSize: 25,
+                                fontFamily: "Courgette",
+                              ),
+                            ),
                           ),
                         ),
                         decoration: BoxDecoration(
@@ -81,12 +111,22 @@ class HomePage extends StatelessWidget {
                         alignment: Alignment.center,
                         width: 200,
                         height: 100,
-                        child: Text(
-                          "HISTORY",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 25,
-                            fontFamily: "Courgette",
+                        child: SizedBox(
+                          height: double.infinity,
+                          child: TextButton(
+                            style: TextButton.styleFrom(
+                              foregroundColor: Colors.white,
+                            ),
+                            onPressed: () {},
+                            child: Text(
+                              "HISTORY",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.black87,
+                                fontSize: 25,
+                                fontFamily: "Courgette",
+                              ),
+                            ),
                           ),
                         ),
                         decoration: BoxDecoration(
@@ -105,12 +145,22 @@ class HomePage extends StatelessWidget {
                         alignment: Alignment.center,
                         width: 200,
                         height: 100,
-                        child: Text(
-                          "PHILOSOPHY",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 25,
-                            fontFamily: "Courgette",
+                        child: SizedBox(
+                          height: double.infinity,
+                          child: TextButton(
+                            style: TextButton.styleFrom(
+                              foregroundColor: Colors.white,
+                            ),
+                            onPressed: () {},
+                            child: Text(
+                              "PHILOSOPHY",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.black87,
+                                fontSize: 25,
+                                fontFamily: "Courgette",
+                              ),
+                            ),
                           ),
                         ),
                         decoration: BoxDecoration(
